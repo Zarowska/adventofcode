@@ -3,35 +3,35 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListPasswords  {
+public class ListPasswords {
 
-    public List<String> passwords = new ArrayList<String>();
+    public List<String> linesWithPassword = new ArrayList<String>();
 
     public void addLine(String lin) {
-        passwords.add(lin);
+        linesWithPassword.add(lin);
     }
 
-    //public String getLine(String lin) {
-    //    return passwords.get(lin);
-   // }
+    //public int wezLiczbe(int indeks) {
+    //    return linesWithPassword.get(indeks);
+    //}
 
     public int countLines() {
-        return passwords.size();
+        return linesWithPassword.size();
     }
 
-    public static ListPasswords stworzListezPliku(String nazwaPliku) {
-        ListPasswords myList = new ListPasswords();
+    public static ListPasswords createListFromFile(String nazwaPliku) {
+        ListPasswords myLista = new ListPasswords();
 
         try {
             BufferedReader br = new BufferedReader(new FileReader(nazwaPliku));
-            String lin = null;
-            while ((lin = br.readLine()) != null) {
-                myList.addLine(lin);
+            String bufferLine = null;
+            while ((bufferLine = br.readLine()) != null) {
+                myLista.addLine(bufferLine);
             }
         } catch (Exception e) {
-            System.err.println("Wystapil blad przy wczytywaniu danych");
+            System.err.println("There was an error loading data");
             e.printStackTrace();
         }
-         return(myList);
+         return(myLista);
     }
 }
