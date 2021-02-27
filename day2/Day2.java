@@ -5,6 +5,10 @@ public class Day2 {
       
         list2 = ListPasswords.createListFromFile("file.txt");
         System.out.println("countLines: " + list2.countLines());
-            }
+   
+       
+        System.out.println("list2: "+ list2);
+    
+    }
         }
     
