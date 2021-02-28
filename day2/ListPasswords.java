@@ -5,37 +5,33 @@ import java.util.List;
 
 public class ListPasswords {
 
-    public List<String> linesWithPasswords = new ArrayList<String>();
+    public List<String> linesWithPassword = new ArrayList<String>();
 
     public void addLine(String lin) {
-        linesWithPasswords.add(lin);
+        linesWithPassword.add(lin);
     }
 
     public String getLine(int ind) {
-        return linesWithPasswords.get(ind);
+        return linesWithPassword.get(ind);
     }
 
     public int countLines() {
-        return linesWithPasswords.size();
+        return linesWithPassword.size();
     }
 
-    String lin = null;
-
     public static ListPasswords createListFromFile(String nazwaPliku) {
-        ListPasswords myList = new ListPasswords();
-        String lin = null;
+        ListPasswords myLista = new ListPasswords();
 
         try {
             BufferedReader br = new BufferedReader(new FileReader(nazwaPliku));
-
-            while ((lin = br.readLine()) != null) {
-                myList.addLine(lin);
+            String bufferLine = null;
+            while ((bufferLine = br.readLine()) != null) {
+                myLista.addLine(bufferLine);
             }
         } catch (Exception e) {
             System.err.println("There was an error loading the data");
             e.printStackTrace();
         }
-
-        return (myList);
+         return(myLista);
     }
-}  
+}
