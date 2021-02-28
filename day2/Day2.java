@@ -15,3 +15,4 @@ public class Day2 {
         System.out.println("Quantity valid passwords is equal to " + quantityValidPasswords + ". The first part of the task.");
     }
 }
+  
