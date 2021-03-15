@@ -27,7 +27,8 @@ public class ListPasswords {
             String bufferLine = null;
             while ((bufferLine = br.readLine()) != null) {
                 myLista.addLine(bufferLine);
-            }
+           }
+           br.close();
         } catch (Exception e) {
             System.err.println("There was an error loading the data");
             e.printStackTrace();

@@ -1,4 +1,4 @@
-public class PasswordPolicyPart2 {
+public class PasswordPolicyPartTwo {
 
     public static boolean checkPasswordPolicy(String arg) {
 
