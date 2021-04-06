@@ -1,10 +1,12 @@
+package com.zarowoks;
+
 public class Solver {
 
-    Solver(Input argInput){
+    Solver(Input argInput) {
 
     }
 
-    int getResult(){
+    int getResult() {
         return 0;
     }
 
