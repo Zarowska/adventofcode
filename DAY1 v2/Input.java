@@ -6,7 +6,7 @@ import java.util.List;
 public class Input {
 
     public List<String> readFile(String fileName) {
-      
+
         List<String> passwords = new ArrayList<>();
 
         try {
@@ -14,8 +14,8 @@ public class Input {
             String bufferLine = null;
             while ((bufferLine = br.readLine()) != null) {
                 passwords.add(bufferLine);
-           }
-           br.close();
+            }
+            br.close();
         } catch (Exception e) {
             System.err.println("There was an error loading the data");
             e.printStackTrace();
@@ -23,7 +23,5 @@ public class Input {
 
         return passwords;
     }
-
-    
 
 }
