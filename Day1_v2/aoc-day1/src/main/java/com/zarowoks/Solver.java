@@ -2,7 +2,7 @@ package com.zarowoks;
 
 import java.util.List;
 
-public class Solver {
+public cla/ss Solver {
 
     
     private static Input input;
