@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.zarowoks.InputTest" time="0.012" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="c:\Users\oksana.zarowska\Desktop\JAVA\adventofcode-main\day2\aoc-day2\target\test-classes;c:\Users\oksana.zarowska\Desktop\JAVA\adventofcode-main\day2\aoc-day2\target\classes;C:\Users\oksana.zarowska\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\oksana.zarowska\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="user.country.format" value="PL"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="c:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\OKSANA~1.ZAR\AppData\Local\Temp\surefire7706064645446093605\surefirebooter6753878934403062241.jar C:\Users\oksana.zarowska\AppData\Local\Temp\surefire7706064645446093605 2021-05-04T10-26-05_737-jvmRun1 surefire2254224056051330993tmp surefire_06205175243355205471tmp"/>
+    <property name="surefire.test.class.path" value="c:\Users\oksana.zarowska\Desktop\JAVA\adventofcode-main\day2\aoc-day2\target\test-classes;c:\Users\oksana.zarowska\Desktop\JAVA\adventofcode-main\day2\aoc-day2\target\classes;C:\Users\oksana.zarowska\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\oksana.zarowska\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\oksana.zarowska"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="c:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\jre"/>
+    <property name="basedir" value="c:\Users\oksana.zarowska\Desktop\JAVA\adventofcode-main\day2\aoc-day2"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\OKSANA~1.ZAR\AppData\Local\Temp\surefire7706064645446093605\surefirebooter6753878934403062241.jar"/>
+    <property name="sun.boot.class.path" value="c:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\jre\lib\resources.jar;c:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\jre\lib\rt.jar;c:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\jre\lib\sunrsasign.jar;c:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\jre\lib\jsse.jar;c:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\jre\lib\jce.jar;c:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\jre\lib\charsets.jar;c:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\jre\lib\jfr.jar;c:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_292-b10"/>
+    <property name="user.name" value="oksana.zarowska"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="c:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\oksana.zarowska\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\OKSANA~1.ZAR\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_292"/>
+    <property name="user.dir" value="c:\Users\oksana.zarowska\Desktop\JAVA\adventofcode-main\day2\aoc-day2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="pl"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="c:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;c:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Teradata\Client\17.00\bin;C:\Program Files (x86)\Teradata\Client\17.00\bin;C:\Oracle\product\11.2.0\client_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Program Files\TortoiseSVN\bin;C:\Program Files\PuTTY\;C:\Oracle\instantclient_19_3;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\AdoptOpenJDK\apache-maven-3.8.1\bin;C:\Users\oksana.zarowska\AppData\Local\Microsoft\WindowsApps;C:\Oracle\instantclient_19_3;C:\Users\oksana.zarowska\AppData\Local\Programs\Git\cmd;C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.3\bin;;C:\Users\oksana.zarowska\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\AdoptOpenJDK\apache-maven-3.8.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="25.292-b10"/>
+    <property name="java.ext.dirs" value="c:\Program Files\AdoptOpenJDK\jdk-8.0.292.10-hotspot\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testReadFile" classname="com.zarowoks.InputTest" time="0"/>
+</testsuite>
