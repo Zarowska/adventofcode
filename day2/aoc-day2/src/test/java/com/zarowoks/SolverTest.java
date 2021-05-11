@@ -3,12 +3,12 @@ package com.zarowoks;
 import org.junit.Assert;
 import org.junit.Test;
 
-class SolverTest {
+public class SolverTest {
 	@Test
-	void testGetResult() {
+	public void testGetResult() {
 		Input input = new Input();
 		int result = new Solver(input).getResult();
-		Assert.assertEquals(121396, result);
+		Assert.assertEquals(560, result);
 	}
 
 }

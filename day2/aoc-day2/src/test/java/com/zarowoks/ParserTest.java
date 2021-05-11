@@ -9,6 +9,12 @@ public class ParserTest {
 		Parser parser = new Parser("1-3 a: abcde");
 		String password = parser.getPassword();
 		Assert.assertEquals("abcde", password);
-	}
+		}
+
+	//public void testGetStringWithPolicy() {
+	//	Parser parser = new Parser("1-3 a: abcde");
+	//	//String stringWithPolicy = parser.getPolicy();
+	//	Assert.assertEquals("1-3 a", stringWithPolicy);
+	//}
 	
 }

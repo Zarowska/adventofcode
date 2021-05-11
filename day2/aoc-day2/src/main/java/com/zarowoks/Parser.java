@@ -1,15 +1,15 @@
 package com.zarowoks;
 
 public class Parser {
-	
-	private String passwordWithPolicy;
+
+	public static String passwordWithPolicy;
 
 	public Parser(String passwordWithPolicy) {
-		this.passwordWithPolicy = passwordWithPolicy;
+		Parser.passwordWithPolicy = passwordWithPolicy;
 	}
 
 	public String getPassword() {
-	return passwordWithPolicy.split(":\s")[1];
+		return passwordWithPolicy.split(":\s")[1];
 	}
 
 }
